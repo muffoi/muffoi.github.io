@@ -8,11 +8,23 @@
     <link rel="icon" href="favicon.png">
     <title>Muffoi - Home</title>
     <style>
-        h1{
+        h1 {
             text-shadow: 0 10px 15px #00000080;
         }
-        .fltsh{
-            filter:drop-shadow(0 10px 25px #00000040);
+
+        .filter {
+            filter: drop-shadow(0 10px 25px #00000040);
+        }
+
+        .disclaimer {
+            font-size: 12px;
+            font-style: italic;
+            color: #888;
+            position: fixed;
+            text-align: center;
+            right: 0;
+            left: 0;
+            bottom: 0;
         }
     </style>
 </head>
@@ -22,22 +34,23 @@
         <div class="row">
             <div class="col-3"></div>
             <div class="col-6">
-                <img src="images/logo.png" alt="Full logo" width="100%" class="text-center fltsh">
+                <img src="images/logo.png" alt="Full logo" width="100%" class="text-center filter">
                 <br>
                 <h1 class="display-1 text-center">Hi, I'm Muffoi!</h1>
             </div>
             <div class="col-3"></div>
         </div>
-        <div class="row my-5"></div>
+        <div class="row my-4"></div>
         <div class="row">
             <div class="col-12 text-center">
                 <p>
-                    I'm a hobby programmer and like coding in <b>JavaScript</b>, in combination with <b>Node.js</b>, sometimes <b>Electron.js</b>.
-                    I also have a bit of knowledge with <b>Batch</b> scripts. Currently, I'm learning <b>Electron.js</b>' APIs and working on a few small projects.
+                    I'm a <b>hobbyist programmer</b> interested in <b>JavaScript</b> development — in combination with <b>Node.js</b>. I have a bit of knowledge with <b>Batch</b> scripts. Currrently working on light simulation engine with <a href="https://github.com/gpujs/gpu.js">GPU.js</a> and <a href="https://github.com/electron/electron">Electron</a>.
                 </p>
                 <p>
-                    For now there's nothing to see, but when I publish a project, updates will appear here.<br>
-                    Stay tuned!
+                    There's nothing more to see, but definitely check out my GitHub page!
+                </p>
+                <p class="disclaimer">
+                    Sorry for a little light theme jumpscare
                 </p>
             </div>
         </div>
